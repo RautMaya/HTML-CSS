@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conic gradient</title>
+    <style>
+        section{
+            height: 150px;
+            width: 150px;
+            border: 1px solid;
+            margin: 10px;
+            display: inline-block;
+           
+        }
+       
+        #section02{
+            background-image: conic-gradient(red ,green,blue);
+        }
+        #section01{
+            background-image: conic-gradient( red 45deg,red 90deg,green 90deg, green 180deg, yellow 180deg);
+        }
+        #section03{
+            background-image: conic-gradient( red 0deg,red 45deg,green 45deg,green 90deg,yellow 90deg,yellow 135deg,blue 135deg,blue 180deg,green 180deg);
+        }
+        #section04{
+            background-image: radial-gradient(green,blue,red);
+        }
+        #section05{
+            background-image: linear-gradient(red  ,green,blue);
+        }
+    
+    </style>
+</head>
+<body>
+    
+       <section id="section01"></section>
+       <section id="section02"></section>
+       <section id="section03"></section>
+       <section id="section04"></section>
+       <section id="section05"></section>
+    
+</body>
+</html>
