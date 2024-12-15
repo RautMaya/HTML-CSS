@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New Member</title>
+    <style>
+    .a{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    input{
+        margin-left: 3%;
+    }
+    button{
+        height: 30%;
+        width: 10%;
+    }
+    </style>
+</head>
+<body class="a">
+    <h2 >Register New Member</h2>
+    <br><br>
+    <label for="Full Name">Full Name  : </label>
+    <input type="text">
+     <br><br>
+    <label for="Email">Email  : </label>
+    <input type="text" style="margin-left: 6%;">
+     <br><br> 
+    <label for="Mobile No">Mobile No  : </label>
+    <input type="text">
+    <br><br> 
+    <label for="Gender">Gender : </label>
+    <input type="radio">Male
+    <input type="radio">Female
+    <input type="radio">Other
+    <br><br> 
+    <label for="Address">Address : </label>
+    <textarea name="Address" id="Address" cols="30" rows="5"></textarea>
+    <br><br> 
+    <label for="Designation">Designation : </label>
+   <select name="Designation" id="Designation">
+   <option value=" Select Designation"> Select Designatio</option>
+    <option value="Principal">Principal</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Staff">Staff</option>
+   </select>
+   <br><br> 
+   <label for="Department">Department : </label>
+  <select name="Department" id="Department">
+  <option value="  Arts"> Arts</option>
+   <option value="Commerce">Commerce</option>
+   <option value="Science">Science</option>
+   <option value="Account">Account</option>
+  </select>
+  <br><br>
+ <form action="Submit" >
+    <button style="margin-left: 5%; margin-top: 5%;">Submit</button>
+    <button style="margin-left: 7%;">Reset</button>
+ </form>
+</body>
+</html>
